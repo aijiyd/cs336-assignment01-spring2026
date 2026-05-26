@@ -53,7 +53,7 @@ class MultiHeadSelfAttention(nn.Module):
                 base_position = torch.arange(seq_len, device=x.device, dtype=torch.long) # [seq_len]
                 token_positions = base_position.view(*([1] * len(batch)), seq_len).expand(*(batch), seq_len) # ... seq_len
             else:
-                tokrn_positions = token_positions.to(device=x.device, dtype=torch.long)
+                token_positions = token_positions.to(device=x.device, dtype=torch.long)
             
             q = self.rope(q, token_positions)
             k = self.rope(k, token_positions)

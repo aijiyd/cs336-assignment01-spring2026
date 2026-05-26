@@ -21,8 +21,8 @@ class RoPE(nn.Module):
         x_odd = x[...,1::2] # 同一个token的奇数维度
         x_even = x[..., 0::2] # 同一个token的偶数维度
 
-        cos = self.cos_cached[token_positions]  # ty:ignore[not-subscriptable]
-        sin = self.sin_cached[token_positions]  # ty:ignore[not-subscriptable]
+        cos = self.cos_cached[token_positions].unsqueeze(-3)  # ty:ignore[not-subscriptable]
+        sin = self.sin_cached[token_positions].unsqueeze(-3)  # ty:ignore[not-subscriptable]
 
         out_odd = sin * x_even + cos * x_odd
         out_even = cos * x_even - sin * x_odd

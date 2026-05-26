@@ -118,13 +118,14 @@ def train(config: Config):
             gradient_clipping(model.parameters(), config.max_l2_norm)  # ty:ignore[unresolved-attribute]
             optimizer.step()
 
+            # 实验记录
             now = time.perf_counter()
             step_time_sec = now - last_log_time
             elapsed_sec = now - train_start_time
             last_log_time = now
 
-            tokens_seen = (step + 1) * tokens_per_step
-            tokens_per_sec = tokens_per_step / step_time_sec
+            tokens_seen = (step + 1) * tokens_per_step # 处理的总token数
+            tokens_per_sec = tokens_per_step / step_time_sec # 每秒处理多少个 token
 
             log_dict = {
                 "train/loss": loss.item(),
@@ -136,6 +137,7 @@ def train(config: Config):
                 "time/tokens_per_sec": tokens_per_sec,
             }
 
+            # 验证
             if step % config.eval_interval == 0:
                 valid_loss = evaluate(model, valid_dataset, config)
                 best_valid_loss = min(best_valid_loss, valid_loss)
@@ -157,7 +159,8 @@ def train(config: Config):
                     msg += f" valid_loss={log_dict['valid/loss']:.4f}"
 
                 print(msg, flush=True)
-            
+
+            # 保存checkpoint
             if step % config.save_interval == 0:
                 os.makedirs(config.checkpoint_dir, exist_ok=True)
                 save_checkpoint(model, optimizer, step, config.latest_checkpoint_path)
@@ -167,6 +170,13 @@ def train(config: Config):
                     },
                     step=step,
                 )
+        # 保存训练好的模型
+        os.makedirs(config.checkpoint_dir, exist_ok=True)
+        save_checkpoint(model, optimizer, step, config.latest_checkpoint_path)
+        run.log({"checkpoint/step": step}, step=step)
+        print(f"saved final checkpoint at step={step}", flush=True)
+
+        # 实验总结记录  
         run.summary["final_step"] = step
         run.summary["best_valid_loss"] = best_valid_loss
         run.summary["total_elapsed_sec"] = time.perf_counter() - train_start_time
