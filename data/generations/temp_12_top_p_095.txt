@@ -1,0 +1,38 @@
+# checkpoint: checkpoints/latest.pt
+# iteration: 9999
+# temperature: 1.2
+# top_p: 0.95
+
+## Prompt
+Once upon a time
+
+## Output
+Once upon a time, there was a lonely bee. The bee was looking for tea. He sat on the meadow all day. He had friends in the big blue pond. They played games and had fun.
+One day, the bee saw a big duck. The duck was long and big. The cat thought, "I want to bathe here!" So, the bee went to the duck and said, "Please do! My name is Bunny." The duck did not want to help Fluffy. He wanted to find a friend in the group.
+The duck came to the big blue pond. They found a frog and a frog. The frog was good at swimming. The frog was not jealous anymore. He made new friends with Bunny. They were happy and played together every day.
+
+
+## Prompt
+One day, Lily found
+
+## Output
+One day, Lily found a pretty costume in the kitchen. It was made of a red planet. She thought it was interesting and wanted to take her costume for a long time.
+Lily asked her mom for a letter. Her mom put the letter in Mia's room where the letter was. They waited for the letter to mild. When the letter was lit, they found it standing outside the door open. Lily smiled and played outside on her new fashion show with her friends.
+
+
+## Prompt
+Tom was very happy because
+
+## Output
+Tom was very happy because he was going to school with Mom and Dad! He played with his ball and skipped his cars.
+But then, Tom's little sister, Amy, found Tom sitting under a box. She was using Spot to pick a big step on his dad's lap. Tom was scared but dropped the step by and he felt silly. Tom looked around his room and realised that he had picked a pretty flower near the toilet. From that day on, Tom knew that wearing the delicate step was under dangerous places and loved to step safely.
+
+
+## Prompt
+The little dog wanted to
+
+## Output
+The little dog wanted to know how warm the baby dog was outside. The dog said, "Let me eat you, big dog." But the baby dog said, "No, I can't. I just want to eat my arm." The big dog felt sad, but he agreed to the baby dog.
+The big dog sat down and waited for the baby to get warm. But nothing happened. The baby dog started to talk to the baby dog. Soon, the baby and the baby dog were friends. They had a big bath together. The baby dog and the baby stayed warm and cozy in the warm bed, and they were happy in their sunny place.
+
+

@@ -1,0 +1,38 @@
+# checkpoint: checkpoints/latest.pt
+# iteration: 9999
+# temperature: 1.0
+# top_p: 0.9
+
+## Prompt
+Once upon a time
+
+## Output
+Once upon a time, there was a big wardrobe in a little girl's room. The little girl liked to play outside. She liked to touch the dark sky and the sun. One day, the little girl saw the sun rise in the sky. She wanted to touch the sun, so she went outside.
+The little girl saw a big bird in the sky. The bird was not harsh. It was very big and hard. The little girl tried to reach the sun, but the tall bird flew away. She felt sad and tried again.
+Then, something unexpected happened. The big bird came back to her. She said, "Why are you sad?" The little girl told the bird that the sun needed time to breathe well. The sun said, "I know the way, but we must be safe." The little girl smiled and said, "Yes, it is a good day." They went home and played in the big, green park.
+
+
+## Prompt
+One day, Lily found
+
+## Output
+One day, Lily found a pretty herb in her garden. She dug a small hole and put it in the middle of the herb. She covered it with dirt and watered it every day. The herb was now a tiny herb that was even bigger than the herb.
+Lily was very happy to have her herb back. She knew that she had to save it for the herb and be a good helper. From that day on, Lily always made sure to watch the herb.
+
+
+## Prompt
+Tom was very happy because
+
+## Output
+Tom was very happy because he loved the sunrise.
+One day, while Tom was sitting in the rain, the sun came up. It was hot and dry. Tom wanted to take a big nap, but he was too tired. Tom was too tired to nap.
+Tom's friend, a strong wind blew on him. The wind blew and Tom fell down. He was very sad and could not share his big wake. The sun came out and it was still outside.
+
+
+## Prompt
+The little dog wanted to
+
+## Output
+The little dog wanted to help. It barked at the mean fox to protect the little bird. The kind rabbit was not mean, but the little dog was scared too. So, the little dog told the mean fox to trust the kind fox. The mean fox took the little dog away. The little dog was very happy and knew that being kind and trusting, he could do anything.
+
+

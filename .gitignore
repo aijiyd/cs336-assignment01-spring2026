@@ -161,3 +161,11 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+# Local experiment artifacts
+.DS_Store
+wandb/
+checkpoints/
+logs/
+data/*.npy
+data/*.pt
+data/*.pkl

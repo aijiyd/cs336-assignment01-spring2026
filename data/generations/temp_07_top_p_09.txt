@@ -1,0 +1,38 @@
+# checkpoint: checkpoints/latest.pt
+# iteration: 9999
+# temperature: 0.7
+# top_p: 0.9
+
+## Prompt
+Once upon a time
+
+## Output
+Once upon a time, there was a little boy named Tim. Tim loved to play outside. One day, he went to the park with his mom. They saw a big tree with a swing. Tim wanted to play on the swing.
+Tim's mom said, "Tim, don't swing. We will go to the tree and swing." Tim nodded and said, "Okay, Mom!" Tim climbed the tree. They had fun swinging and swinging.
+After playing, Tim went home. His mom gave him a big hug. Tim was happy. He knew that even when he was busy, he could still have fun. And they lived happily ever after.
+
+
+## Prompt
+One day, Lily found
+
+## Output
+One day, Lily found a big, red apple under a tree. She was so happy and wanted to share it with her friend, Tim.
+Lily took the apple and ran to Tim's house. Tim was very careful with the apple, but he did not want to break it. He took the apple and ran away. Lily was sad and cried. Tim felt bad and said sorry to Lily. They went back to the tree and played together.
+
+
+## Prompt
+Tom was very happy because
+
+## Output
+Tom was very happy because he loved to play with his friends.
+One day, Tom and his friends found a big box. They were curious and wanted to see what was inside. They opened the box and found a big, bouncy ball. They all played with the ball and had lots of fun.
+Tom and his friends had a great time with the bouncy ball. They played until the sun went down, and then they went home to their moms. Tom's mom was proud of them for being so helpful. They all had a fun day together, and Tom was happy to have a friend like Tom.
+
+
+## Prompt
+The little dog wanted to
+
+## Output
+The little dog wanted to help, so he barked and wagged his tail. The squirrel climbed onto the little dog's back, and they both smiled. The little dog was very happy to help. From that day on, they became best friends.
+
+

@@ -123,10 +123,8 @@ def train(config: Config):
             step_time_sec = now - last_log_time
             elapsed_sec = now - train_start_time
             last_log_time = now
-
             tokens_seen = (step + 1) * tokens_per_step # 处理的总token数
             tokens_per_sec = tokens_per_step / step_time_sec # 每秒处理多少个 token
-
             log_dict = {
                 "train/loss": loss.item(),
                 "train/lr": lr,
@@ -144,7 +142,7 @@ def train(config: Config):
 
                 log_dict["valid/loss"] = valid_loss
                 log_dict["valid/best_loss"] = best_valid_loss
-
+            
             run.log(log_dict, step=step)
             if step % 10 == 0:
                 msg = (

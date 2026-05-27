@@ -1,0 +1,40 @@
+# checkpoint: checkpoints/latest.pt
+# iteration: 9999
+# temperature: 0.0
+# top_p: None
+
+## Prompt
+Once upon a time
+
+## Output
+Once upon a time, there was a little girl named Lily. She loved to play with her toys and have fun. One day, she found a big box in her room. Inside the box, there were many colorful toys. Lily was very happy.
+Lily wanted to play with the toys, but she did not know how. She asked her mom, "Mom, can you help me open the box?" Her mom said, "Yes, let's try together." They opened the box and found many toys inside. Lily was very happy.
+Lily played with the toys all day. She shared them with her friends. They all had fun. Lily learned that sharing is good. She was glad she could help her mom and make new friends. And they all lived happily ever after.
+
+
+## Prompt
+One day, Lily found
+
+## Output
+One day, Lily found a big box in her room. She was very excited and wanted to see what was inside.
+Lily opened the box and found a big, soft teddy bear. She loved the teddy bear and played with it all day. She took the teddy bear with her everywhere she went. She even put it on a shelf in her room.
+When it was time to go to bed, Lily hugged her teddy bear tight. She said goodnight to her teddy bear and went to sleep. She dreamed of more fun days with her teddy bear and her teddy bear.
+
+
+## Prompt
+Tom was very happy because
+
+## Output
+Tom was very happy because he had a new friend. They played together every day.
+One day, Tom and Sue found a big box. They opened the box and saw a lot of toys inside. They were so happy! They played with the toys all day long. They had so much fun.
+But then, something unexpected happened. The toys started to move! They were not just toys, they were toys! Tom and Sue were very surprised. They laughed and played with the toys. They had a great day with their new toys.
+
+
+## Prompt
+The little dog wanted to
+
+## Output
+The little dog wanted to help the cat. The cat said, "I will help you, but you must promise to be nice to others." The cat agreed and they became friends.
+The cat and the dog played together every day. They were very happy. The cat learned that being nice and helping others is important. The cat was happy too, because she knew that being nice was important.
+
+
